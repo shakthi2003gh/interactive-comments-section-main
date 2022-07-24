@@ -1,0 +1,24 @@
+@import url(/styles/normalize.css);
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  min-width: 375px;
+}
+
+:root {
+  --color-primary: hsl(238, 40%, 52%);
+  --color-secondary: hsl(358, 79%, 66%);
+  --hover-secondary: hsl(357, 100%, 86%);
+  --color-profile: hsl(212, 24%, 26%);
+  --color-text: hsl(211, 10%, 45%);
+  --color-: hsl(223, 19%, 93%);
+  --color-: hsl(228, 33%, 97%);
+  --bg: hsl(239, 57%, 85%);
+  --bg-comments: hsl(0, 0%, 100%);
+}
